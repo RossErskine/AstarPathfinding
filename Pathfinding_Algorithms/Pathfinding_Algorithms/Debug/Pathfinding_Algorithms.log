@@ -1,0 +1,8 @@
+﻿  Map.cpp
+D:\DDocuments\C++\HE code\Pathfinding_Algorithms\Pathfinding_Algorithms\Map.cpp(134,22): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Pathfinding_Algorithms\Pathfinding_Algorithms\Map.cpp(299,22): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Pathfinding_Algorithms\Pathfinding_Algorithms\MyTools.h(72,2): warning C4018: '<': signed/unsigned mismatch
+D:\DDocuments\C++\HE code\Pathfinding_Algorithms\Pathfinding_Algorithms\MyTools.h(72): message : while compiling class template member function 'MyLib::Vector_ref<MyLib::MyRectangle>::~Vector_ref(void)'
+D:\DDocuments\C++\HE code\Pathfinding_Algorithms\Pathfinding_Algorithms\Map.cpp(17): message : see reference to function template instantiation 'MyLib::Vector_ref<MyLib::MyRectangle>::~Vector_ref(void)' being compiled
+D:\DDocuments\C++\HE code\Pathfinding_Algorithms\Pathfinding_Algorithms\Map.h(150): message : see reference to class template instantiation 'MyLib::Vector_ref<MyLib::MyRectangle>' being compiled
+  Pathfinding_Algorithms.vcxproj -> D:\DDocuments\C++\HE code\Pathfinding_Algorithms\Debug\Pathfinding_Algorithms.exe

@@ -1,6 +1,7 @@
 # A* Pathfinding
 
 A* pathfinding search is an iterative search that evaluates every search by giving every piece of data to be searched a score f ( n ) the data with the lowest score is determined to be closest to the finish by using the formula:
+
 $$\begin{equation} f(n) = g(n) + h(n) \end{equation} $$
 
 where g ( n ) records the shortest distance from the start position and h ( n ) is the heuristic that estimates the shortest distance to the finish position, as a result, f ( n ) estimates the shortest path of moves from the start position to the finish position, passing through n Heineman et al (2016). Mathew (2015) states that the standard heuristic to use for a square grid is the Manhattan distance where the cost function of d is found and can be described as:

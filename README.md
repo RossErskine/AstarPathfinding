@@ -5,7 +5,7 @@ $$\begin{equation} f(n) = g(n) + h(n) \end{equation} $$
 
 where g ( n ) records the shortest distance from the start position and h ( n ) is the heuristic that estimates the shortest distance to the finish position, as a result, f ( n ) estimates the shortest path of moves from the start position to the finish position, passing through n Heineman et al (2016). Mathew (2015) states that the standard heuristic to use for a square grid is the Manhattan distance where the cost function of d is found and can be described as:
 
-$$\begin{equation} d * (dx = abs(node.x – goal.x) + dy = abs(node.y – goal.y)) \end{eqaution}$$
+$$\begin{equation} d * (dx = abs(node.x – goal.x) + dy = abs(node.y – goal.y)) \end{equation}$$
 
 Harabor and Grastien (2013) and Cormen (2009) both state that Euclidean distance is another heuristic used in A* pathfinding and is
 described as:

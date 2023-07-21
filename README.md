@@ -29,7 +29,8 @@ diagonal and 0.4 on diagonal else, the tests would not allow a passable way to t
 
 Unfortunately, our diagonal tests see (figure 5) did not show us significant comparisons perhaps because a random number engine function that generates a uniformly distributed sequence of values and a distribution function that generates a sequence of values was used that gave us the same random number each time the program ran Stroustrup( 2014: p914), which can be a good idea for when testing giving the same testing environment each time. However, this left the diagonal solution unable to be tested properly, further tests could be done where walls were added manually which could take more time but give better results.
 
-![image](https://github.com/RossErskine/AstarPathfinding/assets/46631932/61a874be-5ef9-4578-a576-3f24e6d90cbc)
+![Screenshot from 2023-07-21 11-30-59](https://github.com/RossErskine/AstarPathfinding/assets/46631932/c16f2e77-6f1f-4e5f-92be-d2685442e637)
+
 
 Mathew (2015) states that the Pathfinding algorithm can be used in many situations and is popular in the gaming industry, in strategy games where many players can be playing in a play area with many obstacles and may be looking for different or similar objects where the size of the heuristic and the cost effect can have large implications in power consumption, memory and overall gameplay.
 
@@ -43,15 +44,19 @@ systems. (3rd) Harlow: Pearson Education Limited
 
 Patel, A (2021) Heuristics. https://www.growingwiththeweb.com/2012/06/a-pathfinding-algorithm.html
 
-![image](https://github.com/RossErskine/AstarPathfinding/assets/46631932/f053a0b0-45fb-4025-a5b9-f72e31590624)
+![Screenshot from 2023-07-21 11-35-02](https://github.com/RossErskine/AstarPathfinding/assets/46631932/51fee4da-c5da-4600-99d3-58aee7ec08dd)
 
-![image](https://github.com/RossErskine/AstarPathfinding/assets/46631932/81ee6872-91b4-430b-b605-17eb060164e5)
+![Screenshot from 2023-07-21 11-35-20](https://github.com/RossErskine/AstarPathfinding/assets/46631932/01962dde-0da9-40e6-b1c8-d06e394b15a6)
 
-![image](https://github.com/RossErskine/AstarPathfinding/assets/46631932/6bb16546-2306-4b9a-ab52-66a024ed3d0e)
+![Screenshot from 2023-07-21 11-35-38](https://github.com/RossErskine/AstarPathfinding/assets/46631932/8200cae3-aba4-4d8c-a1d9-ba1783712b4b)
 
-![image](https://github.com/RossErskine/AstarPathfinding/assets/46631932/12f9c0ce-b55d-44e4-8816-a1b4bcd65d79)
+![Screenshot from 2023-07-21 11-35-55](https://github.com/RossErskine/AstarPathfinding/assets/46631932/a88c6a6e-bf2e-4025-919e-4c5ce5d659ec)
 
-![image](https://github.com/RossErskine/AstarPathfinding/assets/46631932/7c67f90c-981d-4bfe-9951-0356cbfcd9b4)
+![Screenshot from 2023-07-21 11-36-13](https://github.com/RossErskine/AstarPathfinding/assets/46631932/52c855c8-95d2-4a54-ad8c-721395108544)
+
+
+
+
 
 
 

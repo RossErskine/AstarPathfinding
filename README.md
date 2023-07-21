@@ -20,8 +20,9 @@ $$\begin{equation} h( n)^2 =(n . x−goal . x)^2 +(n . y −goal. y)^2\end{equat
 Though it should be noted that the sources Patel (2021) and Growing with the web (2016) are just blog posts yet, to find if they are correct could be interesting. So, the next section will explore how these three heuristics perform on our pathfinding algorithm.
 
 
+![Screenshot from 2023-07-21 11-28-43](https://github.com/RossErskine/AstarPathfinding/assets/46631932/111e0b19-14c0-4569-bb10-5a65bc59b891)
 
-![image](https://github.com/RossErskine/AstarPathfinding/figures/'Screenshot from 2023-07-21 11-28-43.png)
+
 
 To perform our tests on our pathfinding algorithm each heuristic was compared against the number of searches needed to find the finish cell that was on the opposite side diagonally on a grid 16 x 16 size, how many cells were needed for the final path and whether the algorithm performed better moving diagonal or not. To make the tests more challenging walls were added, when each cell was created a cell would become a wall with the probability of 0.1, 0.2, 0.3 or 0.4 which would make the tests more difficult, however, the difficulty could not go further than 0.3 on non-
 diagonal and 0.4 on diagonal else, the tests would not allow a passable way to the finish. The results show to see (figure 4) that Euclidean distance squared outperformed the other two heuristics quite considerably with Manhattan outperforming Euclidean distance with the least searches on our non-diagonal movement test, all three heuristics found their target in 31 cells.
